@@ -1,5 +1,5 @@
   // Complete the function
- function getSecondLargest(nums) {
+function getSecondLargest(nums) {
     let largest = nums[0];
     let secondLargest = nums[0];
     

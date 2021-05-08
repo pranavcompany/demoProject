@@ -8,8 +8,6 @@ let y = function(callback){
 }
 y(x);
 
-
-
 // without Call back:
 let calc1 = function(num1,num2, calcType) {
     if(calcType == 'Add') {

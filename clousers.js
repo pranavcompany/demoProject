@@ -104,6 +104,17 @@ console.log(z7());
 // Ex 8:
 function z8(){
     for(var i =0;i<=5;i++){
+        setTimeout(function() {
+            console.log(i);
+        }, i*1000);
+    }
+  console.log('I am here');
+}
+console.log(z8());
+
+// Ex 9:
+function z9(){
+    for(var i =0;i<=5;i++){
         function close(i){
             setTimeout(function() {
                 console.log(i);
@@ -113,4 +124,4 @@ function z8(){
     }
   console.log('I am here');
 }
-console.log(z8());
+console.log(z9());
