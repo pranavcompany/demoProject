@@ -1,5 +1,5 @@
 const a ={ name:"Pranav",b: {name:"Arun",c:{ name:"Deepak",d:"abc"}}}
-const aa = {...a} // shallow copy
+const aa = a // shallow copy
 
 console.log(aa)
 console.log(a)

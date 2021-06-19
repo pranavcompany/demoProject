@@ -30,7 +30,7 @@ function x2(){
     }
 }
 var z1 = x2();
-console.log(z1());
+// console.log(z1());
 
 // Ex 3:
 function x3(){
@@ -125,3 +125,16 @@ function z9(){
   console.log('I am here');
 }
 console.log(z9());
+
+
+function z10(close = (i) => {
+    setTimeout(function() {
+        console.log('I am here Z10');
+        console.log(i);
+    }, i * 1000);
+}){
+    for(var i =0;i<=5;i++){
+       close(i);
+    }
+}
+console.log(z10());
